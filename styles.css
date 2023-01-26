@@ -1,0 +1,125 @@
+/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+    background-color:#575751;
+
+}
+.hongse{
+    color:red;
+}
+img {
+    border: 15px solid #635d02;
+    
+    width: 350px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.buttons {
+	display: flex;
+    justify-content: center;
+}
+
+    
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 40px;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+
+/*
+.story-opening{
+   display:none;
+}
+*/
+/*
+.buttons{
+   display:none;
+}
+*/
+
+
+
+.option-one-screen{
+    border:5px black solid;
+    padding:5px;
+   display:none;
+}
+
+
+
+.option-two-screen{
+    border:5px black solid;
+    padding:5px;
+   display:none;
+}
+
+
+
+.option-one-end{
+    border:5px black solid;
+    padding:5px;
+   display:none;
+}
+
+
+.option-two-end{
+    border:5px black solid;
+    padding:5px;
+   display:none;
+}
+.option-two2{
+    display:none;
+}
+.option-one1{
+    display:none;
+}
+.text{
+    color:#dea814;
+    border: 5px solid lightyellow;
+    border-left-width: 3vmax;
+    border-right-width: 3vmax;
+    font-size:30px;
+    font-weight:bold;
+}
+.option-one{
+    background-color:#f7f583;
+    padding:25px;
+    border-radius:10px;
+    margin:5px;
+    
+}
+.option-two{
+    background-color:#f7f583;
+    padding:25px;
+    border-radius:10px;
+    margin:5px;
+}
+.option-three{
+    background-color:#f7f583;
+    padding:25px;
+    border-radius:10px;
+    margin:5px;
+}
+.option-four{
+    background-color:#f7f583;
+    padding:25px;
+    border-radius:10px;
+    margin:5px;
+}
